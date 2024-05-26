@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon"  href="favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+<div style="color:white; text-align:center">
+<img src="images/weather.jpg" style=" height: auto;width: auto;filter: drop-shadow(5px 5px 5px black);">
+    <h1>Weather Forecasts</h1>
+    <h3>Fun Searching!!</h3>
+ 
+    
+     <form action="MyServlet" method="post" class="searchInput">
+            <input type="text" placeholder="Enter City Name" id="searchInput" name="city"/>
+            <button id="searchButton">Get Start</button>
+      </form>
+       <footer>
+      <h6>Technologies Used: </h6> 
+      <h5>HTML, CSS, JS, Java, Servlet, JSP, OpenWeather API</h5>
+      </footer>     
+ </div>
+ 
+</body>
+</html>

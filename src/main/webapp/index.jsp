@@ -16,6 +16,18 @@
 
 
 <body>
+<div style="color:white; text-align:center">
+<div>
+    <header class="header-content">
+        <a>
+        <img src="favicon-32x32.png" alt="logo">
+        <span class="logo-text">WeatherApp</span>
+        </a>
+        
+    </header>
+</div>
+<br>
+<br>
 
     <div class="mainContainer">
      <form action="MyServlet" method="post" class="searchInput">
@@ -52,7 +64,15 @@
             </div>
         </div>
     </div>
-
+ <br>
+ <br>
+      <footer class="footer">
+      <h6>Technologies Used: </h6> 
+      <h5>HTML, CSS, JS, Java, Servlet, JSP, OpenWeather API</h5>
+      <br>
+      <h6>Made by Manjari</h6>
+      </footer> 
+</div>
 
     <script src="myScript.js"></script>
 	  
